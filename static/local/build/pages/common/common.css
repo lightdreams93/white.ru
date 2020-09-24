@@ -14710,7 +14710,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 .page-header__logo-image {
 	display: block;
-	height: 20px
+	height: 28px
 }
 
 @media (min-width:720px) {
@@ -14721,7 +14721,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 @media (min-width:1280px) {
 	.page-header__logo-image {
-		height: 30px
+		height: 35px
 	}
 }
 
