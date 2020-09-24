@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Интернет-витрина магазина SimpleWine: продажа хорошего алкоголя в Москве и Санкт-Петербурге, цены на сайте
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="static/local/build/pages/common/common.css">
+</head>
+
+<body>
+    <div class="page-layout">
+        <div class="page-layout__header">
+            <div class="page-header-wrap">  
+                <header class="page-header"> 
+                    <div class="page-header__container container"> 
+                        <div class="page-header__burger-wrapper">
+                            <button class="page-header__open-menu js-touch-menu-toggle" type="button" data-mobile-menu-active="main-nav">
+                                <span class="page-header__icon-burger">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu-burger">
+                                        <path fill="currentColor" d="M22 6H2V5h20v1zm0 7H2v-1h20v1zm0 7H2v-1h20v1z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <a class="page-header__logo-wrapper" href="index.html">
+                            <picture class="page-header__logo">
+                                <source media="(max-width: 719px)"
+                                    srcset="static/local/assets/logo/logo-simple-wine.svg" width="101" height="20"
+                                    type="image/svg+xml" />
+                                <img class="page-header__logo-image"
+                                    src="static/local/assets/logo/simple-wine-full-logo.svg" alt="Simple Wine"
+                                    title="" />
+                            </picture>
+                        </a>
+                        <div class="page-header__search-wrapper page-header__hide-on-cart">
+                            <button class="page-header__button page-header__button_search" type="button">
+                                <span class="page-header__icon-search">
+                                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search">
+                                        <path fill="none" stroke="currentColor"
+                                            d="M10.5 4A6.5 6.5 0 0 0 4 10.5a6.5 6.5 0 0 0 6.5 6.5 6.5 6.5 0 0 0 6.5-6.5A6.5 6.5 0 0 0 10.5 4zm5.56 11.146l-.707.707 3.536 3.535.707-.707-3.535-3.535z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </button>
+                            <button
+                                class="page-header__button page-header__button_search-mobile js-mobile-search-toggler">
+                                <span class="page-header__icon-search">
+                                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search">
+                                        <path fill="none" stroke="currentColor"
+                                            d="M10.5 4A6.5 6.5 0 0 0 4 10.5a6.5 6.5 0 0 0 6.5 6.5 6.5 6.5 0 0 0 6.5-6.5A6.5 6.5 0 0 0 10.5 4zm5.56 11.146l-.707.707 3.536 3.535.707-.707-3.535-3.535z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="page-header__favorite-wrapper page-header__hide-on-cart">
+                            <a class="page-header__button page-header__favorite-link">
+                                <span class="page-header__icon-heart">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
+                                        <use stroke="currentColor" fill="currentColor" xlink:href="#cua" transform="translate(-469 -37)" fill-rule="evenodd">
+                                            <path id="cua"
+                                                d="M479.205 54.914C479.11 54.854 470 49.026 470 43.1c0-2.812 2.257-5.1 5.03-5.1 1.536 0 3.04.797 4.023 2.13l.447.607.447-.607c.984-1.333 2.487-2.13 4.024-2.13 2.772 0 5.029 2.288 5.029 5.1 0 5.926-9.111 11.755-9.204 11.814a.55.55 0 0 1-.591 0z">
+                                            </path>
+                                        </use>
+                                    </svg>
+                                </span>
+                                <span class="page-header__favorite-text">Избранное</span>
+                            </a>
+                        </div>
+                        <div class="page-header__cart-wrapper page-header__hide-on-cart">
+                            <a class="page-header__button" href="#"
+                                id="header-cart-container">
+                                <span class="page-header__icon-cart">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="-3 -4 24 24" id="basket">
+                                        <path fill="currentColor"
+                                            d="M3.79 14.99h10.42L16.106 7H1.895l1.894 7.99zM3.287 16a.474.474 0 0 1-.454-.381L.84 7H0v-.992h3.03L6.448 0l.816.48-3.172 5.528h9.82L10.736.48l.816-.48 3.417 6.008H18V7h-.947l-1.982 8.619a.474.474 0 0 1-.454.381H3.288z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="page-header__cart-text">Корзина</span>
+                                <span class="page-header__cart-amount" id="header-cart-counter">0</span>
+                            </a>
+                            <div class="page-header__cart-dropdown-wrapper">
+                                <div class="page-header__cart-dropdown">
+                                    <div class="cart-dropdown">
+                                        <div class="cart-dropdown__header">
+                                            <div class="cart-dropdown__title">Корзина
+                                            </div>
+                                            <a href="#" class="cart-dropdown__remove-all">Очистить все</a>
+                                        </div>
+                                        <div class="cart-dropdown__content">
+                                            <div class="cart-dropdown__scroller-track">
+                                                <div class="cart-dropdown__scroller-bar"></div>
+                                            </div>
+                                            <ul class="cart-dropdown__items-list">
+                                                <li class="cart-dropdown-item">
+                                                    <div class="cart-dropdown-item__image-wrapper">
+                                                        <picture>
+                                                            <img
+                                                                src="upload/iblock/72f/vino-triple-overtime-fiano-igor-larionov-2019.webp"
+                                                                alt=""
+                                                                role="presentation"
+                                                                class="cart-dropdown-item__image">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="cart-dropdown-item__info">
+                                                        <button type="button" class="cart-dropdown-item__close-button">
+                                                            <span>
+                                                                <svg width="20" height="20"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="close-thin">
+                                                                    <path fill="currentColor"
+                                                                        d="M18.388 5l-6.389 6.389L5.612 5 5 5.612l6.388 6.389L5 18.388l.612.612L12 12.612 18.388 19l.612-.612L12.612 12 19 5.612z">
+                                                                    </path>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+                                                        <h2 class="cart-dropdown-item__title">
+                                                            <a href="#" class="cart-dropdown-item__title-link">
+                                                                Warre's King's Tawny Port
+                                                            </a>
+                                                        </h2>
+                                                        <div class="cart-dropdown-item__description">
+                                                            <p class="cart-dropdown-item__text">Португалия, сладкое</p>
+                                                            <p class="cart-dropdown-item__text">Артикул: 112883</p>
+                                                        </div>
+                                                        <div class="cart-dropdown-item__controls">
+                                                            <div class="cart-dropdown-item__amount">
+                                                                <div class="ui-counter cart-dropdown-item__counter js-counter">
+                                                                    <button type="button" class="ui-counter__button ui-counter__button_dec js-counter__dec">
+                                                                        <span>
+                                                                            <svg width="10" height="10"xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 10 10" id="minus">
+                                                                                <path fill="currentColor" d="M10 2V0H0v2z"></path>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </button>
+                                                                    <input type="number" min="1" value="1" class="ui-counter__input js-counter__field"> <button data-v-7d02c49d=""
+                                                                        type="button"
+                                                                        class="ui-counter__button ui-counter__button_inc js-counter__inc">добавить
+                                                                        <span>
+                                                                            <svg width="10" height="10"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" id="plus">
+                                                                                <path fill="currentColor" d="M4 10h2V6h4V4H6V0H4v4H0v2h4z"></path>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cart-dropdown-item__price-wrapper">
+                                                                <div class="cart-dropdown-item__price cart-dropdown-item__price">
+                                                                    1&nbsp;740 ₽
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-dropdown__footer">
+                                            <div class="cart-dropdown__total">
+                                                <div class="cart-dropdown__total-title">Всего</div>
+                                                <div class="cart-dropdown__total-price">5&nbsp;220 ₽</div>
+                                            </div> 
+                                            <a href="#" class="ui-button ui-button_theme_primary ui-button_size_l ui-button_text-size_xs ui-button_stretched">
+                                                <span class="ui-button__text">Перейти в корзину</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="page-header__profile-wrapper page-header__hide-on-cart">
+                            <div class="userdrop">
+                                <a data-fancybox href="javascript:;" data-src="#auth-modal" class="userdrop__switcher call-modal" type="button" title="Вход и регистрация">
+                                    <span class="userdrop__icon-profile">
+                                        <svg width="40" height="40"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="profile">
+                                            <path fill="none" stroke="currentColor"
+                                                d="M12.55 27.45h14.9c-.011-3.098-3.022-5.3-7.45-5.3-4.428 0-7.439 2.202-7.45 5.3zM20 18.917a3.187 3.187 0 0 0 3.183-3.183 3.187 3.187 0 0 0-3.182-3.184 3.187 3.187 0 0 0-3.184 3.183A3.187 3.187 0 0 0 20 18.917zm0 0z">
+                                            </path>
+                                        </svg>
+                                    </span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <nav class="navigation page-header-wrap__navigation navigation_init">
+                    <div class="navigation__row">
+                        <ul class="navigation__list container"> 
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    <span class="navigation__link-inner">
+                                        <span class="navigation__link-text">
+                                            Главная    
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    <span class="navigation__link-inner">
+                                        <span class="navigation__link-text">
+                                            Каталог
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    <span class="navigation__link-inner">
+                                        <span class="navigation__link-text">
+                                            О нас
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    <span class="navigation__link-inner">
+                                        <span class="navigation__link-text">
+                                            Контакты
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="page-layout__content">
+            <main class="catalog-page container" role="main">
+                <div class="catalog-page__catalog-wrapper">
+                    <div class="catalog js-catalog">
+                        <div class="catalog__description-wrapper">
+                            <div class="catalog-description">
+                                <h1 class="catalog-description__title js-catalog-description-title ">Каталог</h1>
+                                <div class="catalog-description__text js-catalog-description-text">
+                                    <p style="text-align: justify;">Вино — один из самых благородных и многогранных напитков в мире. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut placeat facilis nihil voluptates repellat, nobis expedita provident. Ex nostrum autem accusamus facere nihil impedit sapiente, praesentium, dolore labore consequatur voluptates?</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="catalog-info">
+                            <div class="catalog-info__left">
+                                <span class="page-meta__text">Найдено </span>
+                                <span class="page-meta__amount"> 
+                                    4253
+                                    <span class="page-meta__amount-label">товара</span>
+                                    <span class="page-meta__amount-label page-meta__amount-label_mobile" aria-hidden="true">товара</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="catalog__sides-wrapper">
+                            <div class="catalog-filters__block">
+                                <div class="new-filters__block">
+                                    <div class="new-filters__block-items">
+                                        <div class="new-filters__block-item">
+                                            <div class="new-filters__block-item--title">
+                                                Цвет
+                                            </div>
+                                            <div class="ui-tag-checkbox__content">
+                                                <div class="ui-checkbox-group">
+                                                    <div class="ui-checkbox-group__container">
+                                                        <div class="ui-checkbox-group__checkboxes">
+                                                            <div class="ui-checkbox-group__checkbox">
+                                                                <label class="ui-checkbox">
+                                                                    <input type="checkbox" name="beloe" class="ui-checkbox__control">
+                                                                    <span class="ui-checkbox__box">
+                                                                        <span class="ui-checkbox__box-check">
+                                                                            <svg width="12" height="9"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                <path fill="#FFF"
+                                                                                    d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                </path>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="ui-checkbox__text">белое</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="ui-checkbox-group__checkbox">
+                                                                <label class="ui-checkbox">
+                                                                    <input type="checkbox" name="krasnoe" class="ui-checkbox__control">
+                                                                    <span class="ui-checkbox__box">
+                                                                        <span class="ui-checkbox__box-check">
+                                                                            <svg width="12" height="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                <path fill="#FFF"
+                                                                                    d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                </path>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="ui-checkbox__text">красное</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="ui-checkbox-group__checkbox">
+                                                                <label class="ui-checkbox">
+                                                                    <input type="checkbox" name="rozovoe" class="ui-checkbox__control">
+                                                                    <span class="ui-checkbox__box">
+                                                                        <span class="ui-checkbox__box-check">
+                                                                            <svg width="12" height="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                <path fill="#FFF"
+                                                                                    d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                </path>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="ui-checkbox__text">розовое</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-filters__block-item">
+                                            <div class="new-filters__block-item--title">
+                                                Цена 
+                                            </div>
+                                            <div class="ui-tag-checkbox__content">
+                                                <div class="ui-tag-checkbox ui-tag-checkbox_selected">
+                                                    <div class="ui-checkbox-group__range-inputs">
+                                                        <div class="ui-checkbox-group">
+                                                            <div class="ui-checkbox-group__container">
+                                                                <div class="ui-checkbox-group__checkboxes">
+                                                                    <div class="ui-checkbox-group__checkbox">
+                                                                        <label class="ui-checkbox">
+                                                                            <input type="checkbox" name="0" class="ui-checkbox__control">
+                                                                            <span class="ui-checkbox__box">
+                                                                                <span class="ui-checkbox__box-check">
+                                                                                    <svg width="12" height="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                        <path fill="#FFF"
+                                                                                            d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                        </path>
+                                                                                    </svg>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="ui-checkbox__text">До 700 ₽</span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="ui-checkbox-group__checkbox">
+                                                                        <label class="ui-checkbox">
+                                                                            <input type="checkbox" name="1" class="ui-checkbox__control">
+                                                                            <span class="ui-checkbox__box">
+                                                                                <span class="ui-checkbox__box-check">
+                                                                                    <svg width="12" height="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                        <path fill="#FFF"
+                                                                                            d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                        </path>
+                                                                                    </svg>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="ui-checkbox__text">700–1 500 ₽</span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="ui-checkbox-group__checkbox">
+                                                                        <label class="ui-checkbox">
+                                                                            <input type="checkbox" name="2" class="ui-checkbox__control">
+                                                                            <span class="ui-checkbox__box">
+                                                                                <span class="ui-checkbox__box-check">
+                                                                                    <svg width="12" height="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="new-filters-check">
+                                                                                        <path fill="#FFF"
+                                                                                            d="M13.305.376l.363.38a.5.5 0 0 1 0 .692l-8.796 9.176a.5.5 0 0 1-.722 0L.332 6.64a.5.5 0 0 1 0-.692l.363-.38a.5.5 0 0 1 .722 0L4.15 8.42a.5.5 0 0 0 .722 0L12.583.376a.5.5 0 0 1 .722 0z">
+                                                                                        </path>
+                                                                                    </svg>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="ui-checkbox__text">1 500–3 000₽</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-items__block">
+                                <div class="catalog-grid catalog-grid_unpadding-mobile catalog-grid_by3 rightside catalog-grid_full-mode">
+                                    <div class="catalog-grid__item">
+                                        <article class="product-snippet">
+                                            <button class="product-snippet__favorite product-card__favorite product-card__favorite">
+                                                <span>
+                                                    <svg width="24" height="24"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
+                                                        <use stroke="currentColor" fill="currentFill" xlink:href="#cua" transform="translate(-469 -37)" fill-rule="evenodd">
+                                                            <path id="cua"
+                                                                d="M479.205 54.914C479.11 54.854 470 49.026 470 43.1c0-2.812 2.257-5.1 5.03-5.1 1.536 0 3.04.797 4.023 2.13l.447.607.447-.607c.984-1.333 2.487-2.13 4.024-2.13 2.772 0 5.029 2.288 5.029 5.1 0 5.926-9.111 11.755-9.204 11.814a.55.55 0 0 1-.591 0z">
+                                                            </path>
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            <div class="product-snippet__top">
+                                                <div class="product-snippet__left">
+                                                    <a href="#" class="js-toggle-group">
+                                                        <picture class="product-snippet__img">
+                                                             <img class="product-card__image" src="upload/iblock/72f/vino-triple-overtime-fiano-igor-larionov-2019.webp"
+                                                                alt="Bin 50 Shiraz"
+                                                                title="Bin 50 Shiraz">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                                <div class="product-snippet__right">
+                                                    <div class="product-snippet__id">
+                                                        <span>Артикул:</span> 116738
+                                                    </div> 
+                                                    <div class="product-snippet__ratings">
+                                                        <div class="product-snippet__ratings-item">
+                                                            <svg height="12" viewBox="0 -10 511.98685 511" width="12" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
+                                                                    fill="#ffc107" />
+                                                            </svg>
+                                                            <span>4.6</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="product-snippet__name">
+                                                        Вино Bin 50 Shiraz, 2018&nbsp;г.
+                                                    </a>
+                                                    <div class="product-snippet__desc">
+                                                        <a href="#">Австралия</a>, 
+                                                        <a href="#">красное</a>, 
+                                                        <a href="#">полусухое</a>,
+                                                        <a href="#">0.75&nbsp;л.</a>
+                                                    </div>
+                                                    <div class="product-snippet__detail">
+                                                        <div class="product-snippet__info">
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Страна:</span>
+                                                                <a href="#">Австралия</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Цвет:</span>
+                                                                <a href="#">красное</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Сахар:</span>
+                                                                <a href="#">полусухое</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Объем:</span>
+                                                                <a href="#">0.75&nbsp;л.</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Виноград:</span>
+                                                                <a href="#">шираз</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Производитель:</span>
+                                                                <a href="#">Lindeman's</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Регион:</span>
+                                                                <a href="#">Новый Южный Уэльс</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Стилистика:</span>
+                                                                красное - яркое, фруктовое, выдержанное в дубе
+                                                            </div>
+                                                        </div>
+                                                         
+                                                         
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                            <div class="product-snippet__bottom"> 
+                                                <div class="product-snippet__buy-box"> 
+                                                    <div class="product-snippet__price">
+                                                        1 190 ₽
+                                                    </div>
+                                                    <div class="product-snippet__buy">
+                                                        <button class="product-snippet__buy-touch js-product-buy-button"></button>
+                                                         
+                                                        <div
+                                                            class="product-snippet__buy-desktop product-snippet__on-hover js-product-counter">
+                                                            <div class="ui-counter js-counter">
+                                                                <button class="ui-counter__button ui-counter__button_dec js-counter__dec" type="button">
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 10 10" id="minus">
+                                                                            <path fill="currentColor" d="M10 2V0H0v2z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <input class="ui-counter__input js-counter__field" type="number" value="1" title="введите количество">
+                                                                <button
+                                                                    class="ui-counter__button ui-counter__button_inc js-counter__inc"
+                                                                    type="button">
+                                                                    добавить
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" id="plus">
+                                                                            <path fill="currentColor" d="M4 10h2V6h4V4H6V0H4v4H0v2h4z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <button class="ui-button ui-button_theme_primary ui-button_text-size_xs product-snippet__buy-desktop-button js-product-buy-button">
+                                                                В корзину
+                                                            </button>
+                                                        </div>
+                                                    </div> 
+                                                    <div class="product-snippet__status product-snippet__status_true">в наличии</div> 
+                                                </div> 
+                                            </div> 
+                                        </article>
+                                    </div> 
+                                    <div class="catalog-grid__item">
+                                        <article class="product-snippet">
+                                            <button class="product-snippet__favorite product-card__favorite product-card__favorite">
+                                                <span>
+                                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
+                                                        <use stroke="currentColor" fill="currentFill" xlink:href="#cua" transform="translate(-469 -37)"
+                                                            fill-rule="evenodd">
+                                                            <path id="cua"
+                                                                d="M479.205 54.914C479.11 54.854 470 49.026 470 43.1c0-2.812 2.257-5.1 5.03-5.1 1.536 0 3.04.797 4.023 2.13l.447.607.447-.607c.984-1.333 2.487-2.13 4.024-2.13 2.772 0 5.029 2.288 5.029 5.1 0 5.926-9.111 11.755-9.204 11.814a.55.55 0 0 1-.591 0z">
+                                                            </path>
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            <div class="product-snippet__top">
+                                                <div class="product-snippet__left">
+                                                    <a href="#" class="js-toggle-group">
+                                                        <picture class="product-snippet__img">
+                                                            <img class="product-card__image"
+                                                                src="upload/iblock/72f/vino-triple-overtime-fiano-igor-larionov-2019.webp"
+                                                                alt="Bin 50 Shiraz" title="Bin 50 Shiraz">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                                <div class="product-snippet__right">
+                                                    <div class="product-snippet__id">
+                                                        <span>Артикул:</span> 116738
+                                                    </div>
+                                                    <div class="product-snippet__ratings">
+                                                        <div class="product-snippet__ratings-item">
+                                                            <svg height="12" viewBox="0 -10 511.98685 511" width="12" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
+                                                                    fill="#ffc107" />
+                                                            </svg>
+                                                            <span>4.6</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="product-snippet__name">
+                                                        Вино Bin 50 Shiraz, 2018&nbsp;г.
+                                                    </a>
+                                                    <div class="product-snippet__desc">
+                                                        <a href="#">Австралия</a>,
+                                                        <a href="#">красное</a>,
+                                                        <a href="#">полусухое</a>,
+                                                        <a href="#">0.75&nbsp;л.</a>
+                                                    </div>
+                                                    <div class="product-snippet__detail">
+                                                        <div class="product-snippet__info">
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Страна:</span>
+                                                                <a href="#">Австралия</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Цвет:</span>
+                                                                <a href="#">красное</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Сахар:</span>
+                                                                <a href="#">полусухое</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Объем:</span>
+                                                                <a href="#">0.75&nbsp;л.</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Виноград:</span>
+                                                                <a href="#">шираз</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Производитель:</span>
+                                                                <a href="#">Lindeman's</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Регион:</span>
+                                                                <a href="#">Новый Южный Уэльс</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Стилистика:</span>
+                                                                красное - яркое, фруктовое, выдержанное в дубе
+                                                            </div>
+                                                        </div>
+                                     
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-snippet__bottom">
+                                                <div class="product-snippet__buy-box">
+                                                    <div class="product-snippet__price">
+                                                        1 190 ₽
+                                                    </div>
+                                                    <div class="product-snippet__buy">
+                                                        <button class="product-snippet__buy-touch js-product-buy-button"></button>
+                                    
+                                                        <div class="product-snippet__buy-desktop product-snippet__on-hover js-product-counter">
+                                                            <div class="ui-counter js-counter">
+                                                                <button class="ui-counter__button ui-counter__button_dec js-counter__dec" type="button">
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 10 10"
+                                                                            id="minus">
+                                                                            <path fill="currentColor" d="M10 2V0H0v2z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <input class="ui-counter__input js-counter__field" type="number" value="1"
+                                                                    title="введите количество">
+                                                                <button class="ui-counter__button ui-counter__button_inc js-counter__inc" type="button">
+                                                                    добавить
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"
+                                                                            id="plus">
+                                                                            <path fill="currentColor" d="M4 10h2V6h4V4H6V0H4v4H0v2h4z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <button
+                                                                class="ui-button ui-button_theme_primary ui-button_text-size_xs product-snippet__buy-desktop-button js-product-buy-button">
+                                                                В корзину
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-snippet__status product-snippet__status_true">в наличии</div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="catalog-grid__item">
+                                        <article class="product-snippet">
+                                            <button class="product-snippet__favorite product-card__favorite product-card__favorite">
+                                                <span>
+                                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
+                                                        <use stroke="currentColor" fill="currentFill" xlink:href="#cua" transform="translate(-469 -37)"
+                                                            fill-rule="evenodd">
+                                                            <path id="cua"
+                                                                d="M479.205 54.914C479.11 54.854 470 49.026 470 43.1c0-2.812 2.257-5.1 5.03-5.1 1.536 0 3.04.797 4.023 2.13l.447.607.447-.607c.984-1.333 2.487-2.13 4.024-2.13 2.772 0 5.029 2.288 5.029 5.1 0 5.926-9.111 11.755-9.204 11.814a.55.55 0 0 1-.591 0z">
+                                                            </path>
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            <div class="product-snippet__top">
+                                                <div class="product-snippet__left">
+                                                    <a href="#" class="js-toggle-group">
+                                                        <picture class="product-snippet__img">
+                                                            <img class="product-card__image"
+                                                                src="upload/iblock/72f/vino-triple-overtime-fiano-igor-larionov-2019.webp"
+                                                                alt="Bin 50 Shiraz" title="Bin 50 Shiraz">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                                <div class="product-snippet__right">
+                                                    <div class="product-snippet__id">
+                                                        <span>Артикул:</span> 116738
+                                                    </div>
+                                                    <div class="product-snippet__ratings">
+                                                        <div class="product-snippet__ratings-item">
+                                                            <svg height="12" viewBox="0 -10 511.98685 511" width="12" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
+                                                                    fill="#ffc107" />
+                                                            </svg>
+                                                            <span>4.6</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="product-snippet__name">
+                                                        Вино Bin 50 Shiraz, 2018&nbsp;г.
+                                                    </a>
+                                                    <div class="product-snippet__desc">
+                                                        <a href="#">Австралия</a>,
+                                                        <a href="#">красное</a>,
+                                                        <a href="#">полусухое</a>,
+                                                        <a href="#">0.75&nbsp;л.</a>
+                                                    </div>
+                                                    <div class="product-snippet__detail">
+                                                        <div class="product-snippet__info">
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Страна:</span>
+                                                                <a href="#">Австралия</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Цвет:</span>
+                                                                <a href="#">красное</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Сахар:</span>
+                                                                <a href="#">полусухое</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Объем:</span>
+                                                                <a href="#">0.75&nbsp;л.</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Виноград:</span>
+                                                                <a href="#">шираз</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Производитель:</span>
+                                                                <a href="#">Lindeman's</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Регион:</span>
+                                                                <a href="#">Новый Южный Уэльс</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Стилистика:</span>
+                                                                красное - яркое, фруктовое, выдержанное в дубе
+                                                            </div>
+                                                        </div>
+                                    
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-snippet__bottom">
+                                                <div class="product-snippet__buy-box">
+                                                    <div class="product-snippet__price">
+                                                        1 190 ₽
+                                                    </div>
+                                                    <div class="product-snippet__buy">
+                                                        <button class="product-snippet__buy-touch js-product-buy-button"></button>
+                                    
+                                                        <div class="product-snippet__buy-desktop product-snippet__on-hover js-product-counter">
+                                                            <div class="ui-counter js-counter">
+                                                                <button class="ui-counter__button ui-counter__button_dec js-counter__dec" type="button">
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 10 10"
+                                                                            id="minus">
+                                                                            <path fill="currentColor" d="M10 2V0H0v2z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <input class="ui-counter__input js-counter__field" type="number" value="1"
+                                                                    title="введите количество">
+                                                                <button class="ui-counter__button ui-counter__button_inc js-counter__inc" type="button">
+                                                                    добавить
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"
+                                                                            id="plus">
+                                                                            <path fill="currentColor" d="M4 10h2V6h4V4H6V0H4v4H0v2h4z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <button
+                                                                class="ui-button ui-button_theme_primary ui-button_text-size_xs product-snippet__buy-desktop-button js-product-buy-button">
+                                                                В корзину
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-snippet__status product-snippet__status_true">в наличии</div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="catalog-grid__item">
+                                        <article class="product-snippet">
+                                            <button class="product-snippet__favorite product-card__favorite product-card__favorite">
+                                                <span>
+                                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
+                                                        <use stroke="currentColor" fill="currentFill" xlink:href="#cua" transform="translate(-469 -37)"
+                                                            fill-rule="evenodd">
+                                                            <path id="cua"
+                                                                d="M479.205 54.914C479.11 54.854 470 49.026 470 43.1c0-2.812 2.257-5.1 5.03-5.1 1.536 0 3.04.797 4.023 2.13l.447.607.447-.607c.984-1.333 2.487-2.13 4.024-2.13 2.772 0 5.029 2.288 5.029 5.1 0 5.926-9.111 11.755-9.204 11.814a.55.55 0 0 1-.591 0z">
+                                                            </path>
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            <div class="product-snippet__top">
+                                                <div class="product-snippet__left">
+                                                    <a href="#" class="js-toggle-group">
+                                                        <picture class="product-snippet__img">
+                                                            <img class="product-card__image"
+                                                                src="upload/iblock/72f/vino-triple-overtime-fiano-igor-larionov-2019.webp"
+                                                                alt="Bin 50 Shiraz" title="Bin 50 Shiraz">
+                                                        </picture>
+                                                    </a>
+                                                </div>
+                                                <div class="product-snippet__right">
+                                                    <div class="product-snippet__id">
+                                                        <span>Артикул:</span> 116738
+                                                    </div>
+                                                    <div class="product-snippet__ratings">
+                                                        <div class="product-snippet__ratings-item">
+                                                            <svg height="12" viewBox="0 -10 511.98685 511" width="12" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0"
+                                                                    fill="#ffc107" />
+                                                            </svg>
+                                                            <span>4.6</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="product-snippet__name">
+                                                        Вино Bin 50 Shiraz, 2018&nbsp;г.
+                                                    </a>
+                                                    <div class="product-snippet__desc">
+                                                        <a href="#">Австралия</a>,
+                                                        <a href="#">красное</a>,
+                                                        <a href="#">полусухое</a>,
+                                                        <a href="#">0.75&nbsp;л.</a>
+                                                    </div>
+                                                    <div class="product-snippet__detail">
+                                                        <div class="product-snippet__info">
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Страна:</span>
+                                                                <a href="#">Австралия</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Цвет:</span>
+                                                                <a href="#">красное</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Сахар:</span>
+                                                                <a href="#">полусухое</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Объем:</span>
+                                                                <a href="#">0.75&nbsp;л.</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Виноград:</span>
+                                                                <a href="#">шираз</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Производитель:</span>
+                                                                <a href="#">Lindeman's</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Регион:</span>
+                                                                <a href="#">Новый Южный Уэльс</a>
+                                                            </div>
+                                                            <div class="product-snippet__info-item">
+                                                                <span class="product-snippet__info-title">Стилистика:</span>
+                                                                красное - яркое, фруктовое, выдержанное в дубе
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-snippet__bottom">
+                                                <div class="product-snippet__buy-box">
+                                                    <div class="product-snippet__price">
+                                                        1 190 ₽
+                                                    </div>
+                                                    <div class="product-snippet__buy">
+                                                        <button class="product-snippet__buy-touch js-product-buy-button"></button>
+                                    
+                                                        <div class="product-snippet__buy-desktop product-snippet__on-hover js-product-counter">
+                                                            <div class="ui-counter js-counter">
+                                                                <button class="ui-counter__button ui-counter__button_dec js-counter__dec" type="button">
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 10 10"
+                                                                            id="minus">
+                                                                            <path fill="currentColor" d="M10 2V0H0v2z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <input class="ui-counter__input js-counter__field" type="number" value="1"
+                                                                    title="введите количество">
+                                                                <button class="ui-counter__button ui-counter__button_inc js-counter__inc" type="button">
+                                                                    добавить
+                                                                    <span>
+                                                                        <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"
+                                                                            id="plus">
+                                                                            <path fill="currentColor" d="M4 10h2V6h4V4H6V0H4v4H0v2h4z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <button
+                                                                class="ui-button ui-button_theme_primary ui-button_text-size_xs product-snippet__buy-desktop-button js-product-buy-button">
+                                                                В корзину
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-snippet__status product-snippet__status_true">в наличии</div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="warning-block__wrapper">
+                    <div class="warning-block">
+                        <div class="warning-block__text">
+                            <div class="warning-block__item">Алкогольная продукция, представленная на сайте <a
+                                    href="/">http://www.white.ru/</a>
+                                может быть приобретена только в пункте выдачи или в одной из винотек, расположенных в городах
+                                Москва,
+                                Санкт-Петербург и Ростов-на-Дону.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="page-layout__footer">
+            <footer class="page-footer">
+                <div class="page-footer__up">
+                    <button class="page-footer__up-btn js-footer-button-up" type="button">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-7 -6 24 24" id="arrow-up">
+                                <path fill="currentColor"
+                                    d="M.27 4.333L4.26.278a.934.934 0 0 1 1.33 0l3.98 4.055c.37.376.37.98 0 1.355a.934.934 0 0 1-1.33 0L5.91 3.315v7.61a.985.985 0 1 1-1.97 0V3.302L1.6 5.688a.934.934 0 0 1-1.33 0 .985.985 0 0 1 0-1.355z">
+                                </path>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+                
+                <div class="page-footer__docs">
+                    <div class="page-footer__wrapper page-footer__docs-wrapper">
+                        <div class="page-footer__docs-links">
+                            <a class="page-footer__docs-link" href="#">Пользовательское
+                                соглашение и условия</a>
+                            <a class="page-footer__docs-link" href="#">Обработка
+                                персональных данных</a>
+                        </div>
+                        <small class="page-footer__docs-copyright">&copy; White, 2020</small>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div> 
+
+    <!-- Модалки -->
+
+    <!-- Авторизация -->
+    <div class="ui-modal__body auth" id="auth-modal" style="display: none;">
+        <div class="auth__wrapper">
+            <div class="auth__header">
+                <div class="auth__title ui-title ui-title_size_xs ui-title_tablet-size_s ui-title_desktop-size_s ui-title_underlined ui-title_font_futura ">
+                    Вход
+                </div> 
+            </div>
+            <div class="auth__body">
+                <div class="auth__body-wrapper auth__byEmail">
+                    <form class="auth__max-width auth__byEmail-form-email">
+                        <div class="ui-input-text _ui-input-text_no-hide-error ui-input-text_required"><input type="email" name="simpleAuthEmail" placeholder="Email" class="">
+                            <div class="ui-input-text__placeholder">Email</div>
+                            <div class="ui-input-text__error"></div>
+                        </div>
+                        <div class="ui-input-text _ui-input-text_no-hide-error ui-input-text_required">
+                            <input type="password" name="simpleAuthPassword" placeholder="Пароль">
+                            <div class="ui-input-text__placeholder">Пароль</div>
+                            <div class="ui-input-text__error"></div>
+                        </div>
+                        <button type="submit" class="ui-button ui-button_theme_primary ui-button_size_l ui-button_tablet-size_l ui-button_text-size_xs ui-button_text-tablet-size_s ui-button_stretched auth__byEmail-form-email-submit">
+                            <span class="ui-button__text">Войти</span>
+                        </button>
+                        <div class="auth__byEmail-form-email-forgot-link">Забыли пароль?</div>
+                    </form>
+                </div>
+                <div class="auth__noLogin">
+                    <div class="auth__noLogin-or"><span>Или</span></div>
+                    <div class="auth__max-width">
+                        <a href="#" class="ui-button ui-button_theme_primary ui-button_size_l ui-button_tablet-size_l ui-button_text-size_xs ui-button_text-tablet-size_s ui-button_stretched auth__noLogin-reg-btn">
+                            <span class="ui-button__text">Зарегистрироваться</span>
+                        </a>
+                        <button class="ui-button ui-button_theme_pseudo ui-button_size_l ui-button_tablet-size_l ui-button_text-size_xs ui-button_text-tablet-size_s ui-button_stretched auth__noLogin-skip-btn">
+                            <span class="ui-button__text">Продолжить без регистрации</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Конец Авторизации -->
+
+    <!-- Конец модалкам -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
