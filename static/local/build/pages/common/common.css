@@ -21044,7 +21044,7 @@ body {
 	.product-snippet:focus-within .product-snippet__id span,
 	.product-snippet:focus .product-snippet__id span,
 	.product-snippet:hover .product-snippet__id span {
-		max-width: 50px;
+		max-width: 65px;
 		margin-right: 3px;
 		transition-delay: 0s
 	}
