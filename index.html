@@ -25,7 +25,7 @@
                 <header class="page-header"> 
                     <div class="page-header__container container">
                         <div class="page-header__burger-wrapper">
-                            <button class="page-header__open-menu js-touch-menu-toggle" type="button" data-mobile-menu-active="main-nav">
+                            <button class="page-header__open-menu" type="button">
                                 <span class="page-header__icon-burger">
                                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu-burger">
                                         <path fill="currentColor" d="M22 6H2V5h20v1zm0 7H2v-1h20v1zm0 7H2v-1h20v1z"></path>
@@ -43,7 +43,7 @@
                                     title="" />
                             </picture>
                         </a>
-                        <div class="page-header__search-wrapper page-header__hide-on-cart">
+                        <div class="page-header__search-wrapper">
                             <button class="page-header__button page-header__button_search" type="button">
                                 <span class="page-header__icon-search">
                                     <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search">
@@ -53,18 +53,8 @@
                                     </svg>
                                 </span>
                             </button>
-                            <button
-                                class="page-header__button page-header__button_search-mobile js-mobile-search-toggler">
-                                <span class="page-header__icon-search">
-                                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search">
-                                        <path fill="none" stroke="currentColor"
-                                            d="M10.5 4A6.5 6.5 0 0 0 4 10.5a6.5 6.5 0 0 0 6.5 6.5 6.5 6.5 0 0 0 6.5-6.5A6.5 6.5 0 0 0 10.5 4zm5.56 11.146l-.707.707 3.536 3.535.707-.707-3.535-3.535z">
-                                        </path>
-                                    </svg>
-                                </span>
-                            </button>
                         </div>
-                        <div class="page-header__favorite-wrapper page-header__hide-on-cart">
+                        <div class="page-header__favorite-wrapper">
                             <a class="page-header__button page-header__favorite-link">
                                 <span class="page-header__icon-heart">
                                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" id="heart">
@@ -78,7 +68,7 @@
                                 <span class="page-header__favorite-text">Избранное</span>
                             </a>
                         </div>
-                        <div class="page-header__cart-wrapper page-header__hide-on-cart">
+                        <div class="page-header__cart-wrapper">
                             <a class="page-header__button" href="#"
                                 id="header-cart-container">
                                 <span class="page-header__icon-cart">
@@ -178,7 +168,7 @@
                             </div>
                         </div>
 
-                        <div class="page-header__profile-wrapper page-header__hide-on-cart">
+                        <div class="page-header__profile-wrapper">
                             <div class="userdrop">
                                 <a data-fancybox href="javascript:;" data-src="#auth-modal" class="userdrop__switcher call-modal" type="button" title="Вход и регистрация">
                                     <span class="userdrop__icon-profile">
